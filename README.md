@@ -38,7 +38,7 @@ Objectif : utiliser le `state` et les `event handlers` pour gérer les événeme
 
 ![Etape 3](kaamelott-3.gif)
 
-Pour ce faire, vous aurez peut-être certainement besoin de gérer les citations avec des ID. Regardez du côté de [la gestion de la modification des données à l'interieur de tableaux](https://beta.reactjs.org/learn/updating-arrays-in-state) pour gérer correctement l'opération.
+Pour ce faire, vous aurez certainement besoin de gérer les citations avec des ID. Regardez du côté de [la gestion de la modification des données à l'interieur de tableaux](https://beta.reactjs.org/learn/updating-arrays-in-state) pour gérer correctement l'opération.
 
 ### Etape 4 : Bonus CSS
 
@@ -53,6 +53,8 @@ Pour changer un peu de la classique TODO list, on vous demande de réaliser une 
 Objectif : maquetter à la volée la mini no-TODO list.
 
 Vous choisirez la façon dont vous voulez afficher votre no-TODO list.
+
+> ℹ Cette étape peut se faire tous ensemble, pas besoin de lancer le chrono en mode Dojo !
 
 ### Etape 2 : Découper chaque item en composant
 
