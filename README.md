@@ -1,66 +1,66 @@
-# Dojos React
+# React Dojos
 
-## Dojo #1 : Le tableau des citations de Kaamelott
+## Dojo #1: Kaamelott's quotes table
 
-On vous demande de réaliser en React, la liste des meilleures citations de Kaamelott.
+You are asked to create (in React) an app listing the best Kaamelott quotes.
 
-### Etape 1 : Affichage des citations
+### Step 1: Displaying the quotes
 
-Objectif : arriver à découper votre application React en 4 composants :
+Objective: split your React application into 4 components:
 
-- `App` (noir)
-- `Header` (bleu)
-- `QuoteList` (rouge)
-- `Quote` (vert)
+- `App` (black)
+- `Header` (blue)
+- `QuoteList` (red)
+- `Quote` (green)
 
-Et y intégrer des données basiques.
+And integrate some basic data.
 
-![Etape 1](kaamelott-1.png)
+![Step 1](kaamelott-1.png)
 
-### Etape 2 : Affichage détaillé de chaque citation
+### Step 2 : Detailed display of each quote
 
-Objectif : utiliser les props pour passer toutes les données nécessaires à votre composant `Quote` et avoir le détail sur chaque citation :
+Objective : use props to pass all relevant data to your `Quote` component and have the detail about each quote :
 
-- De la citation
-- De l'auteur
-- De la saison
-- De l'épisode
+- The quote itself
+- The author
+- The season
+- The episode
 
-![Etape 2](kaamelott-2.png)
+![Step 2](kaamelott-2.png)
 
-Pour ce faire, vous pouvez vous baser sur l'api suivante : [API citations Kaamelott](https://github.com/sin0light/api-kaamelott). Elle vous permettra d'avoir des données déjà utilisables.
+To do this, you can use the following api : [API citations Kaamelott](https://github.com/sin0light/api-kaamelott). It will give you directly usable data.
 
-> ⚠ **Attention**, l'objectif n'est pas de consommer directement l'API, mais seulement de la tester dans votre navigateur pour récupérer des données. La récupération de données dans une application React sera vue ultérieurement.
+> ⚠ **Attention**, Don't try to use the API directly, only to test it in your browser to retrieve data. Retrieving data in a React application is a topic for another day ;-)
 
-### Etape 3 : Gestion des likes
+### Step 3: Storing likes
 
-Objectif : utiliser le `state` et les `event handlers` pour gérer les événements sur les clics et mettre à jours les données.
+Goal: use `state` and `event handlers` to handle click events and update data.
 
-![Etape 3](kaamelott-3.gif)
+![Step 3](kaamelott-3.gif)
 
-Pour ce faire, vous aurez certainement besoin de gérer les citations avec des ID. Regardez du côté de [la gestion de la modification des données à l'interieur de tableaux](https://beta.reactjs.org/learn/updating-arrays-in-state) pour gérer correctement l'opération.
+To do this, you'll probably need to handle quotes with IDs. Look at [managing data modification inside tables](https://beta.reactjs.org/learn/updating-arrays-in-state) to do this properly.
 
-### Etape 4 : Bonus CSS
+### Step 4: Bonus - CSS
 
-Objectif : rendre le tout un peu attrayant, parce que c'est un peu moche quand même. Vous êtes autorisés à ajouter un peu de CSS.
+Goal: Make it look attractive, it's a rough-looking right now. You are allowed to add a little CSS.
 
-## Dojo #2 : La no-TODO list
+## Dojo #2: The no-TODO list
 
-Pour changer un peu de la classique TODO list, on vous demande de réaliser une liste de chose à ne pas faire.
+To change a bit from the classic TODO list, we ask you to make a list of things not to do.
 
-### Etape 1 : Afficher la no-TODO list
+### Step 1: Display the no-TODO list
 
-Objectif : maquetter à la volée la mini no-TODO list.
+Objective: create a simple wireframe for a mini no-TODO list.
 
-Vous choisirez la façon dont vous voulez afficher votre no-TODO list.
+You will choose the way you want to display your no-TODO list.
 
-> ℹ Cette étape peut se faire tous ensemble, pas besoin de lancer le chrono en mode Dojo !
+> This step can be done all together, no need to start the timer in Dojo mode!
 
-### Etape 2 : Découper chaque item en composant
+### Step 2 : Break down each item into components
 
-Objectif : Arriver à découper son application React en plusieurs composants.
+Goal: split your React application into several components.
 
-Un découpage possible pourrait être :
+A possible breakdown could be :
 
 - `App`
 - `Header`
@@ -68,10 +68,10 @@ Un découpage possible pourrait être :
 - `ItemList`
 - `Item`
 
-### Etape 3 : Gérer l'ajout d'élément à la liste
+### Step 3: Add items to the list
 
-Objectif : Gérer l'ajout d'un élément à la liste via la soumission du formulaire de nouvel élément.
+Objective: Add an item to the list via the new item form.
 
-### Etape 4 : Gérer la validation d'une non réalisation
+### Step 4: Manage the validation of a non completion
 
-Objectif : A l'aide d'une case à cocher, gérer la non réalisation d'un item de la liste. Vous pouvez changer le style de l'item (couleur en gris, style italique et barré).
+Objective: Mark an item in the list as not-done using a checkbox. You can change the style of the item (gray color, italic style and strikethrough).
