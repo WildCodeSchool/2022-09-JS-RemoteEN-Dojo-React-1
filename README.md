@@ -31,9 +31,9 @@ To do this, you can use the following api : [Quotes API](https://api-ninjas.com/
 
 > ⚠ **Attention**, Check out the API docs first and have a look at the response by calling the API directly in your browser - it will help you when consuming the data in React with fetch or Axios 😄
 
-### Step 3: Storing likes
+### Step 3: Storing likes and dislikes
 
-Goal: use `state` and `event handlers` to handle click events and update data.
+Goal: use `state` and `event handlers` to handle click events and update likes and dislikes.
 
 ![Step 3](quotes-3.png)
 
